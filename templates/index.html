@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air pollution</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        input[type="text"] {
+            width: calc(100% - 12px);
+            padding: 6px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Air Pollution</h1>
+    <form method="POST" action="/submit">
+        <label for="PM2.5">Enter the value of PM2.5:</label>
+        <input type="text" id="PM2.5" name="PM2.5" required>
+        
+        <label for="PM10">Enter the value of PM10:</label>
+        <input type="text" id="PM10" name="PM10" required>
+        
+        <label for="NO">Enter the value of NO:</label>
+        <input type="text" id="NO" name="NO" required>
+        
+        <label for="NO2">Enter the value of NO2:</label>
+        <input type="text" id="NO2" name="NO2" required>
+        
+        <label for="NOx">Enter the value of NOx:</label>
+        <input type="text" id="NOx" name="NOx" required>
+        
+        <label for="NH3">Enter the value of NH3:</label>
+        <input type="text" id="NH3" name="NH3" required>
+        
+        <label for="CO">Enter the value of CO:</label>
+        <input type="text" id="CO" name="CO" required>
+        
+        <label for="SO2">Enter the value of SO2:</label>
+        <input type="text" id="SO2" name="SO2" required>
+        
+        <label for="O3">Enter the value of O3:</label>
+        <input type="text" id="O3" name="O3" required>
+        
+        <label for="Benzene">Enter the value of BENZENE:</label>
+        <input type="text" id="Benzene" name="Benzene" required>
+        
+        <label for="Toluene">Enter the value of TOLUENE:</label>
+        <input type="text" id="Toluene" name="Toluene" required>
+        
+        <label for="Xylene">Enter the value of XYLENE:</label>
+        <input type="text" id="Xylene" name="Xylene" required>
+        
+        <label for="AQI">Enter the value of AQI:</label>
+        <input type="text" id="AQI" name="AQI" required>
+        
+        <input type="submit" value="Submit">
+    </form> 
+</body>
+</html>
