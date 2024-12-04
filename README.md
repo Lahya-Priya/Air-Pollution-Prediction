@@ -1,4 +1,4 @@
-# Air Pollution Analysis Project
+# Air Pollution Prediction using Random Forest classifier
 
 This project aims to analyze air pollution data, predict pollution levels using machine learning techniques, and present the results through an interactive web interface. By leveraging cutting-edge tools, the project provides actionable insights into air quality trends and predictions.
 
